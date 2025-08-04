@@ -37,3 +37,7 @@ console.log(fs.statSync("./test.txt").isFile());
 // fs.rmdirSync("my-docs");//remove directory
 
 fs.mkdirSync("my-docs/a/b",{recursive:true});
+
+//in normal js there is nothing like file handling file thing due to security purposes.
+
+//Async() Recommended
