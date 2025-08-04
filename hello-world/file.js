@@ -32,3 +32,7 @@ fs.cpSync("./test.txt","./copy.txt");//make copy file of available file
 fs.unlinkSync("./copy.txt");//delete any file
 
 
+console.log(fs.statSync("./test.txt").isFile());
+// fs.mkdirSync("my-docs");//make directory
+// fs.rmdirSync("my-docs");//remove directory
+
