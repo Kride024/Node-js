@@ -41,3 +41,8 @@ fs.mkdirSync("my-docs/a/b",{recursive:true});
 //in normal js there is nothing like file handling file thing due to security purposes.
 
 //Async() Recommended
+// const fs = require('fs');
+// fs.readFile('file.txt', 'utf8', (err, data) => {
+//     if (err) throw err;
+//     console.log(data); // Non-blocking
+// });
