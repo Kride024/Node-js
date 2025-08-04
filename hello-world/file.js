@@ -36,3 +36,4 @@ console.log(fs.statSync("./test.txt").isFile());
 // fs.mkdirSync("my-docs");//make directory
 // fs.rmdirSync("my-docs");//remove directory
 
+fs.mkdirSync("my-docs/a/b",{recursive:true});
