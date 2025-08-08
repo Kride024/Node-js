@@ -14,15 +14,21 @@ fs.appendFile('log.txt',log,(err,data)=>{
     // res.end("Hello from server");
    switch(myUrl.pathname){
     case '/':
-        res.end("Home Page");
-        break;
+        // res.end("Home Page");
+        if(res.method === "GET")
+            res.end("HomePage");
+            break;
     case '/about':
         const username=myUrl.query.myname;
         res.end(`Hi, ${username}`);
         break;
     case '/search':
         const search = myUrl.query.search_query;
-        res.end("Here are your result for " + search);    
+        res.end("Here are your result for " + search);  
+    case '/signup':
+        if(req.method === "GET")res.end("This is a signup Form");
+        else if (req.method === "POST")res.end("Success");
+        break;      
     default:
         res.end("404 Not Found");        
    }
