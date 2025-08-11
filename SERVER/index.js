@@ -91,6 +91,8 @@ app.get('/',(req,res)=>{
 app.get("/about",(req,res)=>{
 
     return res.send(`Hello from About Page  ${req.query.myname}`);
+    //for JSON res.JSON()
+    
 })
 
 app.listen(8000,()=>{
