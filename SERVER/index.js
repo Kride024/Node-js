@@ -96,3 +96,7 @@ app.get("/about",(req,res)=>{
 app.listen(8000,()=>{
     console.log("Server started at port 8000");
 })
+
+
+// npm razer.com
+// JSON : javascript object notation

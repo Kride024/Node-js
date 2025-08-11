@@ -18,5 +18,25 @@ Ex -> v5.2.0
 // 1st Part -> Major Release / Breaking update
 if you are making new project from start then you can go on this
 
+// JSON : javascript object notation
+
+// we give data as raw in jSON further frontend (React , mobile -> it may made in flutter , browser) 
+further frontend can decide what he wants to do with data.
+
+// you should know tumhara client kon hai like google know ki it has to open on browser so it send html , nahi toh kaam baad jata hai 
+
+// raw data send -> render on client but for cross platform we have to send jSON , further frontend team will handle how to show this data
+
+
+// you should know both server and client are different thing
+
+
+Restful api guidelines:-
+1. always respect server client architecture and remember both are different
+2. always respect all http methods
+ GET POST PUT Patch DELETE
+GET/user - users data read karo and return data
+POST/user - handle new user creation
+Patch/user - update the user 
 
 
