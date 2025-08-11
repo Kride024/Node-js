@@ -1,10 +1,23 @@
 const http = require("http");
-const fs = require("fs");
-const url = require("url");
+// const fs = require("fs");
+// const url = require("url");
+const express = require("express");
+
+
+const app = express();
+
+app.get('/',(req,res)=>{
+    return res.send("Hello from Home Page");
+})
+
+app.get("/about",(req,res)=>{
+    return res.send("Hello from About Page");
+})
+// mujhe koi aaise library chahiye jo mera my handler function ko likh de
 
 
 
-const myServer = http.createServer((req,res)=>{
+function myHandler(req,res){
 // console.log(req);
 if(req.url === '/favicon.ico')return res.end();
 const log = `${Date.now()}: ${req.url} New Req Received\n`;
@@ -32,9 +45,10 @@ fs.appendFile('log.txt',log,(err,data)=>{
     default:
         res.end("404 Not Found");        
    }
-});
-// res.end("Hello From Server");
-});
+})
+};
+
+const myServer = http.createServer(app);
 
 //!  you can even send entire html 
 
@@ -47,6 +61,11 @@ myServer.listen(8000,()=>console.log("Server started Again!")
 //! url stand for uniform resources locator
 
 // https://www.piyushgarg.dev/
+
+// for header use different package and for json use different module
+
+
+//? Express js
 
 
 
