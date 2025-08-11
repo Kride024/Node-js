@@ -33,10 +33,12 @@ further frontend can decide what he wants to do with data.
 
 Restful api guidelines:-
 1. always respect server client architecture and remember both are different
+(HTML in node js we send from server)
 2. always respect all http methods
  GET POST PUT Patch DELETE
 GET/user - users data read karo and return data
 POST/user - handle new user creation
 Patch/user - update the user 
 
-
+Future Plan :- 
+MERN : JSON data we will send
