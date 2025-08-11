@@ -2,70 +2,21 @@
 1754400454830: /aboutNew Req Received
 1754400528369: /about?myname=KritiNew Req Received
 1754400546741: /about?myname=KritiNew Req Received
-1754400548160: /about?myname=KritiNew Req Received
-1754400569915: /about?myname=Kriti New Req Received here it don'nt to parse query parameter, need external package 
-1754405829702: / New Req Received
-1754405902795: /?myname:kriti New Req Received
-1754407420161: /?myname:kriti New Req Received
-1754407421660: /?myname:kriti New Req Received
-1754407431958: /about New Req Received
-1754407941187: /about New Req Received
-1754408021628: /about New Req Received
-1754408079320: /about New Req Received
-1754408080546: /about New Req Received
-1754408081182: /about New Req Received
-1754408096764: / New Req Received
-1754408149702: / New Req Received
-1754408215432: / New Req Received
-1754408216136: / New Req Received
-1754408232999: /?myname=kriti New Req Received
-1754408285432: /?myname=kriti&userID=1 New Req Received
-1754408579231: /about/?myname=kriti&userID=1 New Req Received
-1754408595347: /about?myname=kriti&userID=1 New Req Received
-1754408653703: /about?myname=kriti&userID=1 New Req Received
-1754408686425: /about?myname=kriti&userID=1 New Req Received
-1754408687150: /about?myname=kriti&userID=1 New Req Received
-1754408687356: /about?myname=kriti&userID=1 New Req Received
-1754408687564: /about?myname=kriti&userID=1 New Req Received
-1754408687741: /about?myname=kriti&userID=1 New Req Received
-1754408687929: /about?myname=kriti&userID=1 New Req Received
-1754408688123: /about?myname=kriti&userID=1 New Req Received
-1754408688310: /about?myname=kriti&userID=1 New Req Received
-1754408688535: /about?myname=kriti&userID=1 New Req Received
-1754408767809: /about?myname=kriti&userID=1 New Req Received
-1754408769078: /about?myname=kriti&userID=1 New Req Received
-1754408769862: /about?myname=kriti&userID=1 New Req Received
-1754408770081: /about?myname=kriti&userID=1 New Req Received
-1754408770240: /about?myname=kriti&userID=1 New Req Received
-1754408770457: /about?myname=kriti&userID=1 New Req Received
-1754408770659: /about?myname=kriti&userID=1 New Req Received
-1754408770881: /about?myname=kriti&userID=1 New Req Received
-1754408771103: /about?myname=kriti&userID=1 New Req Received
-1754408771327: /about?myname=kriti&userID=1 New Req Received
-1754408771549: /about?myname=kriti&userID=1 New Req Received
-1754408771758: /about?myname=kriti&userID=1 New Req Received
-1754408771984: /about?myname=kriti&userID=1 New Req Received
-1754408772811: /about?myname=kriti&userID=1 New Req Received
-1754408854372: /about?myname=kriti&userID=1 New Req Received
-1754408855100: /about?myname=kriti&userID=1 New Req Received
-1754408855292: /about?myname=kriti&userID=1 New Req Received
-1754408855495: /about?myname=kriti&userID=1 New Req Received
-1754408855697: /about?myname=kriti&userID=1 New Req Received
-1754408855874: /about?myname=kriti&userID=1 New Req Received
-1754408856102: /about?myname=kriti&userID=1 New Req Received
-1754409082036: /about?myname=kriti&userID=1 New Req Received
-1754409432823: /search?search_query=javascript_tic+tac+toe New Req Received
-1754409446220: /search?search_query=javascript_tic+tac+toe New Req Received
-1754409464905: /search?search_query=javascript_tic+tac+toe New Req Received
-1754660007290: / New Req Received
-1754660182365: / New Req Received
-1754660184999: /about New Req Received
-1754660213685: /about?myname=kriti&userID=1 New Req Received
-1754660299900: /about New Req Received
-1754660697908: /search New Req Received
-1754660793590: /search?search_query=haka%20+%20baka New Req Received
-1754660853198: /signup New Req Received
-1754660863532: /signup New Req Received
-1754660865584: /signup New Req Received
-1754660877539: /signup New Req Received
-1754660878896: /signup New Req Received
+
+Latest -> v5.1.0
+
+1st Part -> 5
+2nd Part -> 1
+3rd Part -> 0
+
+// 3rd Part (Last Part) - Minor Fixes (Optional)
+Ex -> v5.1.1
+
+//2nd Part - Recommended Bug Fix (Secure bug Fix)
+Ex -> v5.2.0
+
+// 1st Part -> Major Release / Breaking update
+if you are making new project from start then you can go on this
+
+
+
