@@ -9,9 +9,14 @@ GET /users - List all users JSON
 GET/users/1 - Get the user with ID 1
 GET/users/2 - Get the user with ID 2
 
+Dynamic Path Parameters
+GET/api/users/:ID
+:ID -> Variable | Dynamic
+
 POST/user - create new user
 
 DELETE/users/1 - Delete the User with ID-1
 
 //we need data for that we will go to mockaroo.com generate fake data for testing purposes
 
+// now we Download tool name post man to test   POST/PATCH/DELETE
