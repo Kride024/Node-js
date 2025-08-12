@@ -19,4 +19,8 @@ DELETE/users/1 - Delete the User with ID-1
 
 //we need data for that we will go to mockaroo.com generate fake data for testing purposes
 
-// now we Download tool name post man to test   POST/PATCH/DELETE
+// now we Download tool name post man to test   POST/PATCH/DELETE , In browser we don't have tool to test these request
+
+// Postman is the best tool to test your apis,in production we always want to decrease this time.
+
+

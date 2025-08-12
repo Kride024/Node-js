@@ -1,12 +1,13 @@
 const express = require("express");
 const users = require("./MOCK_DATA.json");
+const fs= require("fs");
 const app = express();
 const PORT = 8000;
 
+//Middleware/Plugins
+app.use(express.urlencoded({extended:false}));
 
 //Routes
-
-
 app.get('/users',(req,res)=>{
 const html = `
 <ul>
@@ -38,8 +39,16 @@ app.route("/api/users/:id").get((req,res)=>{
 
 app.post("/api/users",(req,res)=>{
     // TODO: Create new User
-    return res.json({status: "pending"});
-});
+    const body = req.body;
+    users.push({id: users.length +1 ,...body});
+    console.log("Body",body);
+    fs.writeFile("./MOCK_DATA.json",JSON.stringify(users),(err)=>{
+        
+            console.log({status: "successful", id: users.length});
+            return res.json({status: "successful", id: users.length});
+    });
+   
+}); 
 
 // app.patch("/api/users/:id",(req,res)=>{
 //     // TODO: Edit User with ID
