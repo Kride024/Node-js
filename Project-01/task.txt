@@ -1,4 +1,17 @@
 REST API -JSON
 
-GET /users - List all users
-GET/users/1 - 
+
+GET/users - HTML Document Render
+GET/api/users - List all users JSON - Done 
+
+
+GET /users - List all users JSON
+GET/users/1 - Get the user with ID 1
+GET/users/2 - Get the user with ID 2
+
+POST/user - create new user
+
+DELETE/users/1 - Delete the User with ID-1
+
+//we need data for that we will go to mockaroo.com generate fake data for testing purposes
+
