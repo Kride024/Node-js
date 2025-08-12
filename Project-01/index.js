@@ -5,7 +5,17 @@ const app = express();
 const PORT = 8000;
 
 //Middleware/Plugins
+//middleware is a function that runs before the request reaches the route handler, and in middleware you can edit , use , display req data 
 app.use(express.urlencoded({extended:false}));
+
+app.use((req,res,next)=>{
+    console.log("Hello from Middleware 1");
+    next(); //to go to next middleware
+});
+app.use((req,res,next)=>{
+    console.log("Hello from Middleware 2");
+    next(); //to go to next middleware
+});
 
 //Routes
 app.get('/users',(req,res)=>{
