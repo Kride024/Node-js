@@ -1,0 +1,6 @@
+Schema - Define the structure
+  Schema _ Model
+  Using Model we do CRUD operation
+  c-create R-read U-update D-Delete
+
+  
