@@ -9,6 +9,10 @@ const router = express.Router();
 
 // for alexa and smart devices request for json , its our hybrid server
 
+router.route("/")
+.post(handleCreateUserById) // Create a new user
+.get(handleGetAllUsers); // Get all users
+
 
 router.route("/:id")
 .get(handleGetUserById)
@@ -16,7 +20,4 @@ router.route("/:id")
 .delete(handleDeleteUserById);
 
 
-router.route("/")
-.post(handleCreateUserById) // Create a new user
-.get(handleGetAllUsers); // Get all users
-module.export = router; // Export the router to use in other files
+module.exports = router; // Export the router to use in other files

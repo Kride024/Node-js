@@ -25,3 +25,4 @@ DELETE/users/1 - Delete the User with ID-1
 
 // connect mongodb with node.js for this we need a dependency mongoose(Package) "npm i mongoose"
 
+//user -> routes ->controller ->model change ->return to user
